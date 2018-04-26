@@ -1,0 +1,53 @@
+function handles = updateStimulusLedBars(handles)
+
+% Delete stimulus and LED bars, if they exist
+objList = {'stimBar','stimBarStr','ledBar','ledBarStr'};
+for i = 1:numel(objList)
+    temp = objList{i};
+    if isfield(handles,temp)
+        if ishandle(handles.(temp))
+            delete(handles.(temp));
+        end
+    end
+end
+
+% Get yMin of bar axes
+barAxis = handles.barAxis;
+yMin = get(barAxis,'YLim');
+yMin = yMin(1);
+
+% Get stimulus type and window
+expt = handles.expt;
+PlotObj = getappdata(handles.hDataViewer,'PlotObj');
+fileInd = PlotObj.FileIndex;
+trigger = PlotObj.Trigger;
+stimType = expt.stimulus(fileInd).params.stimType;
+delay = expt.stimulus(fileInd).params.delay;
+stimWindow = [delay delay + expt.stimulus(fileInd).params.duration];
+
+% Add stimulus bar
+[handles.stimBar handles.stimBarStr] = addStimulusBar(barAxis,[stimWindow yMin],stimType,[0 0 0]);
+pos = get(handles.stimBarStr,'Position');
+pos(1) = handles.SweepDuration*0.9;
+pos(2) = pos(2)+0.2;
+set(handles.stimBarStr,'Position',pos);
+
+% Get LED duration and bar
+% **** Need to store information about LED duration ****
+ledWindow  = [0.25 1.75];
+ledVal = filtsweeps(expt.sweeps,0,'fileInd',fileInd,'trigger',trigger');
+ledVal = ledVal.led;
+if ~(ledVal == 0)
+    [handles.ledBar handles.ledBarStr] = addStimulusBar(barAxis,[ledWindow yMin+0.4],'LED',[1 0.25 0.25]);
+    pos = get(handles.ledBarStr,'Position');
+    pos(1) = handles.SweepDuration*0.9;
+    pos(2) = pos(2)+0.15;
+    set(handles.ledBarStr,'Position',pos);
+end
+
+% Update file and trigger number
+str = ['F' num2str(fileInd) 'T' num2str(trigger)];
+set(handles.barAxisFileTriggerText,'String',str);
+setappdata(handles.hDataViewer,'currentTrace',str);
+
+guidata(handles.hDataViewer,handles);

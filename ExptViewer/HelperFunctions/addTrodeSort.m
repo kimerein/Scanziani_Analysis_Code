@@ -9,7 +9,7 @@ function expt = addTrodeSort(expt,trodeInd)
 
 
 % Add new trode
-if trodeInd > 4
+if trodeInd > expt.probe.numtrodes
     prompt = {'Enter channels'};
     answer = inputdlg(prompt,'',1); pause(0.05);
     expt.sort.trode(trodeInd).channels =  str2num(answer{1});

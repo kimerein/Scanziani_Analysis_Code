@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions
+END
+loadTDThelper_getEpocVal.m
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDThelper_getEpocVal.m
+END
+loadTDTData.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDTData.m
+END
+loadTDThelper_makefilename.m
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDThelper_makefilename.m
+END
+loadTDThelper_getStimCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDThelper_getStimCond.m
+END
+loadTDThelper_makeSFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDThelper_makeSFile.m
+END
+loadTDThelper_GetTTL.m
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDThelper_GetTTL.m
+END
+GetFsDurationTrig_TDThelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/GetFsDurationTrig_TDThelper.m
+END
+loadTDThelper_getTankBlk.m
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/loadTDThelper_getTankBlk.m
+END
+getPsychStimParameters_TDThelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions2/HelperFunctions/TDT%20functions/getPsychStimParameters_TDThelper.m
+END

@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions
+END
+makeNewExptFormatSRO.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/makeNewExptFormatSRO.m
+END
+addStimCond.asv
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addStimCond.asv
+END
+keepfield.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/keepfield.m
+END
+addStimCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addStimCond.m
+END
+AddStimParams.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/AddStimParams.m
+END
+filtpartialspikes.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SubVRep/!svn/ver/1350/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/filtpartialspikes.m
+END
+getUnitInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getUnitInfo.m
+END
+spikesAddConds.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/spikesAddConds.m
+END
+loadDAQData.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/loadDAQData.m
+END
+addSort.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addSort.m
+END
+makeNewExptFormat.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/makeNewExptFormat.m
+END
+GUI_listFilesVisualParams.fig
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/GUI_listFilesVisualParams.fig
+END
+getSpikesStruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getSpikesStruct.m
+END
+getPsychStimParameters.asv
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getPsychStimParameters.asv
+END
+MakeDataMat.asv
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/MakeDataMat.asv
+END
+getPsychStimParameters.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getPsychStimParameters.m
+END
+MakeDataMat.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/MakeDataMat.m
+END
+spikes_collapseVarParam.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/spikes_collapseVarParam.m
+END
+addFiles.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addFiles.m
+END
+getFromExptTable.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getFromExptTable.m
+END
+GetExptList.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/GetExptList.m
+END
+addProbe.asv
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addProbe.asv
+END
+AddTTLCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/AddTTLCond.m
+END
+addAnalysisSRO.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addAnalysisSRO.m
+END
+addProbe.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addProbe.m
+END
+createDefaultExptTable.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/createDefaultExptTable.m
+END
+createDefaultDaqParameters.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/createDefaultDaqParameters.m
+END
+filtsweeps.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/filtsweeps.m
+END
+isTDTexpt.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/isTDTexpt.m
+END
+GUI_listFilesVisualParams.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/GUI_listFilesVisualParams.m
+END
+addTrodeSort.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addTrodeSort.m
+END
+spikesAddSweeps.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/spikesAddSweeps.m
+END
+MakeExptSRO.asv
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/MakeExptSRO.asv
+END
+UpdateTrials.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/UpdateTrials.m
+END
+MakeExptSRO.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/MakeExptSRO.m
+END
+addInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addInfo.m
+END
+getTrialsInSpikes.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getTrialsInSpikes.m
+END
+getUnitDepth.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getUnitDepth.m
+END
+addStimValues.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addStimValues.m
+END
+readUnitTag.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/readUnitTag.m
+END
+GetLEDCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/GetLEDCond.m
+END
+loaddata.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/loaddata.m
+END
+GetFileInd.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/GetFileInd.m
+END
+preprocessDAQ.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/preprocessDAQ.m
+END
+filtspikes.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/filtspikes.m
+END
+addLEDCond.asv
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addLEDCond.asv
+END
+addSweeps.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addSweeps.m
+END
+getUnitLabel.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getUnitLabel.m
+END
+GetFsDurationTrig_NIDAQhelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/GetFsDurationTrig_NIDAQhelper.m
+END
+getFilename.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getFilename.m
+END
+getStimCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/getStimCond.m
+END
+addLEDCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/addLEDCond.m
+END
+SweepFsDuration.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/HelperFunctions/SweepFsDuration.m
+END

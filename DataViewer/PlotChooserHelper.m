@@ -4,7 +4,6 @@ function handles = PlotChooserHelper(handles)
 %
 %   Created: 4/5/10 - SRO
 
-
 % Insert channel information into table
 nActiveChannels = handles.nActiveChannels;
 if nActiveChannels < length(handles.hAllAxes)
@@ -29,14 +28,14 @@ for i = 1:length(handles.hAllAxes)
     hTglLP(i) = uicontrol(handles.MainPanel,'Style','togglebutton');
     hTglHP(i) = uicontrol(handles.MainPanel,'Style','togglebutton');
     hTglThr(i) = uicontrol(handles.MainPanel,'Style','togglebutton');
-    if i < 13
-        set(hTglLP(i),'Position',[30 (245-(i-1)*16) 11 11]);
-        set(hTglHP(i),'Position',[49 (245-(i-1)*16) 11 11]);
-        set(hTglThr(i),'Position',[69 (245-(i-1)*16) 11 11]);
+    if i < 17
+        set(hTglLP(i),'Position',[30 (312-(i-1)*17) 11 11]);
+        set(hTglHP(i),'Position',[49 (312-(i-1)*17) 11 11]);
+        set(hTglThr(i),'Position',[69 (312-(i-1)*17) 11 11]);
     else
-        set(hTglLP(i),'Position',[235 (245-(i-13)*16) 11 11]);
-        set(hTglHP(i),'Position',[254 (245-(i-13)*16) 11 11]);
-        set(hTglThr(i),'Position',[274 (245-(i-13)*16) 11 11]);
+        set(hTglLP(i),'Position',[235 (380-(i-13)*17) 11 11]);
+        set(hTglHP(i),'Position',[254 (380-(i-13)*17) 11 11]);
+        set(hTglThr(i),'Position',[274 (380-(i-13)*17) 11 11]);
     end 
 end
 

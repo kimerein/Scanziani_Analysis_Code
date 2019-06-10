@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions
+END
+loadTDThelper_getEpocVal.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDThelper_getEpocVal.m
+END
+loadTDTData.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDTData.m
+END
+loadTDThelper_makefilename.m
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDThelper_makefilename.m
+END
+loadTDThelper_getStimCond.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDThelper_getStimCond.m
+END
+loadTDThelper_makeSFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDThelper_makeSFile.m
+END
+loadTDThelper_GetTTL.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDThelper_GetTTL.m
+END
+GetFsDurationTrig_TDThelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/GetFsDurationTrig_TDThelper.m
+END
+loadTDThelper_getTankBlk.m
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/loadTDThelper_getTankBlk.m
+END
+getPsychStimParameters_TDThelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/SubVRep/!svn/ver/1165/branches/kim/branches/Analysis%20Code/ExptViewer/Old%20HelperFunctions/TDT%20functions/getPsychStimParameters_TDThelper.m
+END

@@ -68,7 +68,7 @@ guidata(hObject, handles);
 function varargout = ExptPlotChooser_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
 RigDef = RigDefs;
-set(hObject,'Units','pixels','Position',[RigDef.PlotChooser.Position 439 356])
+set(hObject,'Units','pixels','Position',[RigDef.PlotChooser.Position 480 530])
 set(hObject,'Visible','on'); pause(0.25)
 
 function ProbePopUp_Callback(hObject, eventdata, handles)
@@ -81,21 +81,22 @@ string = contents{get(hObject,'Value')};
 % Fixed by Kim to query RigDefs rather than having this hard-coded in the
 % function
 probeIndex=find(strcmp(string,RigDef.Probe.UserProbes));
-switch string
-    case '[1:16] Channel in order'
-        ChannelOrder = [1:16];       
-    case '16 Channel 1x16'
-        ChannelOrder = RigDef.ChannelOrder{probeIndex};       
-    case '16 Channel 2x2'
-        ChannelOrder = RigDef.ChannelOrder{probeIndex}; 
-    case '16 Channel 4x1'
-        ChannelOrder = RigDef.ChannelOrder{probeIndex}; 
-    case 'Glass electrode'
-        ChannelOrder = RigDef.ChannelOrder{probeIndex}; 
-    case 'Other'
-        ChannelOrder = inputdlg('Enter channel order');
-        ChannelOrder = str2mat(ChannelOrder);
-end
+ChannelOrder=RigDef.ChannelOrder{probeIndex};
+% switch string
+%     case '[1:16] Channel in order'
+%         ChannelOrder = [1:16];       
+%     case '16 Channel 1x16'
+%         ChannelOrder = RigDef.ChannelOrder{probeIndex};       
+%     case '16 Channel 2x2'
+%         ChannelOrder = RigDef.ChannelOrder{probeIndex}; 
+%     case '16 Channel 4x1'
+%         ChannelOrder = RigDef.ChannelOrder{probeIndex}; 
+%     case 'Glass electrode'
+%         ChannelOrder = RigDef.ChannelOrder{probeIndex}; 
+%     case 'Other'
+%         ChannelOrder = inputdlg('Enter channel order');
+%         ChannelOrder = str2mat(ChannelOrder);
+% end
 
 ChannelOrder = ChannelOrder';
 setappdata(handles.hDataViewer,'ChannelOrder',ChannelOrder);
@@ -256,13 +257,13 @@ guidata(hObject,handles);
 function TglPlot21_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
-function TglPlot22_Callback(hObject, eventdata, handles)
+function TglPlot26_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
-function TglPlot23_Callback(hObject, eventdata, handles)
+function TglPlot27_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
-function TglPlot24_Callback(hObject, eventdata, handles)
+function TglPlot28_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
 function HPedit_CreateFcn(hObject, eventdata, handles)
@@ -288,10 +289,82 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in TglPlot25.
-function TglPlot25_Callback(hObject, eventdata, handles)
-% hObject    handle to TglPlot25 (see GCBO)
+% --- Executes on button press in TglPlot29.
+function TglPlot29_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot29 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of TglPlot25
+% Hint: get(hObject,'Value') returns toggle state of TglPlot29
+
+
+% --- Executes on button press in TglPlot18.
+function togglebutton41_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot18 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot18
+
+
+% --- Executes on button press in TglPlot27.
+function togglebutton42_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot27 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot27
+
+
+% --- Executes on button press in TglPlot28.
+function togglebutton43_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot28 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot28
+
+
+% --- Executes on button press in TglPlot29.
+function togglebutton44_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot29 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot29
+
+
+% --- Executes on button press in TglPlot30.
+function TglPlot30_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot30 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot30
+
+
+% --- Executes on button press in TglPlot31.
+function TglPlot31_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot31 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot31
+
+
+% --- Executes on button press in TglPlot32.
+function TglPlot32_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot32 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot32
+
+
+% --- Executes on button press in TglPlot26.
+function togglebutton49_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot26 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot26

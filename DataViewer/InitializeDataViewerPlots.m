@@ -48,7 +48,7 @@ if isequal(length(ChannelOrder),length(dvplot.pvOn))
     k = ismember(ChannelOrder,dvplot.pvOn);
     pvOnOrdered = ChannelOrder(k);
 else
-    display('length of ChannelOrder does not match number of channels plotted')
+    display('length of ChannelOrder does not match number of channels plotted - in InitializeDataViewerPlots.m')
     pvOnOrdered = dvplot.pvOn;
 end
 

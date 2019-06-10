@@ -195,13 +195,11 @@ elseif ~get(hObject,'Value')
 end
 
 
-% --- Executes during object creation, after setting all properties.
-function axes24_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to axes24 (see GCBO)
+% --- Executes on mouse press over figure background.
+function hDataViewer_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to hDataViewer (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
-% handles    empty - handles not created until after all CreateFcns called
-
-% Hint: place code in OpeningFcn to populate axes24
+% handles    structure with handles and user data (see GUIDATA)
 
 
 % --- Executes during object creation, after setting all properties.
@@ -209,19 +207,3 @@ function hDataViewer_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to hDataViewer (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-
-
-% --------------------------------------------------------------------
-function allYAxesSame_ClickedCallback(hObject, eventdata, handles)
-% hObject    handle to allYAxesSame (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-yScaleAllTogether(handles);
-
-
-% --------------------------------------------------------------------
-function yAxesCongruent_ClickedCallback(hObject, eventdata, handles)
-% hObject    handle to yAxesCongruent (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-yAxesMakeSameSize(handles);

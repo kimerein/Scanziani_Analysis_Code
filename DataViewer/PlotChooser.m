@@ -68,7 +68,8 @@ guidata(hObject, handles);
 function varargout = PlotChooser_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
 RigDef = RigDefs;
-set(hObject,'Units','pixels','Position',[RigDef.PlotChooser.Position 439 356])
+%150210 set(hObject,'Units','pixels','Position',[RigDef.PlotChooser.Position 439 356])
+set(hObject,'Units','pixels','Position',[RigDef.PlotChooser.Position 480 530])
 set(hObject,'Visible','on'); pause(0.25)
 
 function ProbePopUp_Callback(hObject, eventdata, handles)
@@ -230,18 +231,6 @@ guidata(hObject,handles);
 function TglPlot20_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
-function TglPlot21_Callback(hObject, eventdata, handles)
-handles = TogglePlotCallback(hObject,handles);
-guidata(hObject,handles);
-function TglPlot22_Callback(hObject, eventdata, handles)
-handles = TogglePlotCallback(hObject,handles);
-guidata(hObject,handles);
-function TglPlot23_Callback(hObject, eventdata, handles)
-handles = TogglePlotCallback(hObject,handles);
-guidata(hObject,handles);
-function TglPlot24_Callback(hObject, eventdata, handles)
-handles = TogglePlotCallback(hObject,handles);
-guidata(hObject,handles);
 function TglPlot25_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
@@ -249,6 +238,9 @@ function TglPlot26_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
 function TglPlot27_Callback(hObject, eventdata, handles)
+handles = TogglePlotCallback(hObject,handles);
+guidata(hObject,handles);
+function TglPlot28_Callback(hObject, eventdata, handles)
 handles = TogglePlotCallback(hObject,handles);
 guidata(hObject,handles);
 function LPedit_CreateFcn(hObject, eventdata, handles)
@@ -280,9 +272,37 @@ function uipanel1_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 
 
-% --- If Enable == 'on', executes on mouse press in 5 pixel border.
-% --- Otherwise, executes on mouse press in 5 pixel border or over TglPlot20.
-function TglPlot20_ButtonDownFcn(hObject, eventdata, handles)
-% hObject    handle to TglPlot20 (see GCBO)
+% --- Executes on button press in TglPlot29.
+function TglPlot29_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot29 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot29
+
+
+% --- Executes on button press in TglPlot30.
+function TglPlot30_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot30 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot30
+
+
+% --- Executes on button press in TglPlot31.
+function TglPlot31_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot31 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot31
+
+
+% --- Executes on button press in TglPlot32.
+function TglPlot32_Callback(hObject, eventdata, handles)
+% hObject    handle to TglPlot32 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of TglPlot32

@@ -21,6 +21,6 @@ expt.sort.cluster.number = zeros(size(expt.sort.cluster.type));
 
 % Add .sort.trode(m) struct where m is the number of trodes
 
-for i = 1:4
+for i = 1:expt.probe.numtrodes
     expt = addTrodeSort(expt,i);
 end

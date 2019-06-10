@@ -38,6 +38,11 @@ if strcmp(expt.probe.type,'16 Channel') || strcmp(expt.probe.type,'16 channel')
     expt.probe.numchannels = 16;
     expt.probe.numtrodes = 4;
     expt.probe.sitesPerTrode = 4;
+elseif strcmp(expt.probe.type,'32 Channel')  || strcmp(expt.probe.type,'32 channel')  
+    expt.probe.trode.names = {'T1','T2','T3','T4','T5','T6','T7','T8'};   % Name is user-defined
+    expt.probe.numchannels = 32;
+    expt.probe.numtrodes = 8;
+    expt.probe.sitesPerTrode = 4;
 elseif strcmp(expt.probe.type,'Glass electrode')
     expt.probe.trode.names = {'E1'};                  % Name is user-defined
     expt.probe.numchannels = 1;
@@ -59,6 +64,8 @@ switch expt.probe.configuration
         expt.probe.channelorder = RigDef.ChannelOrder{3};
     case {'1x1','1 x 1'} % Glass electrode
         expt.probe.channelorder = 1;
+    case {'2x16','2X16'}
+        expt.probe.channelorder = RigDef.ChannelOrder{5};
 end
 
 % Adds .tipdepth and .sitedepth

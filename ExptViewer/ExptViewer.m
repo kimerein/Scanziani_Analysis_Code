@@ -35,7 +35,7 @@ guidata(hObject, handles);
 function varargout = ExptViewer_OutputFcn(hObject, eventdata, handles)
 
 RigDef = RigDefs;
-set(hObject,'Position',[RigDef.ExptViewer.Position 781 774]); pause(0.2)
+set(hObject,'Position',RigDef.ExptViewer.Position); pause(0.2)
 set(hObject,'Visible','on'); pause(0.2)
 
 function varargout = SortTable_OpeningFcn(hObject, eventdata, handles)
@@ -50,7 +50,7 @@ function OpenExptButton_Callback(hObject, eventdata, handles)
 %BA find list of experiments again
 temp = handles.CurrentExpt; % hold on to current expt to look up later
 handles.ExptList = GetExptList();
-handles.CurrentExpt = find(ismember(handles.ExptList,temp)); % set the CurrentExpt index to be right (there may have beenchanges in the Expt List
+handles.CurrentExpt = find(ismember(handles.ExptList,temp)); % set the CurrentExpt index to be right (there may have beenchanges in the Expt List)
 
 % Open list dialog with all experiments and load chosen experiment
 ExptList = handles.ExptList;
@@ -416,22 +416,24 @@ handles.RigDef = RigDefs;
 ExptList = GetExptList();
 handles.ExptList = ExptList;
 handles.ExptInd = 1;
-handles.CurrentExpt = handles.ExptList{handles.ExptInd};
+if ~isempty(handles.ExptList)
+    handles.CurrentExpt = handles.ExptList{handles.ExptInd};
 
-% Load information from most recent experiment
-handles = LoadExpt(handles);
+    % Load information from most recent experiment
+    handles = LoadExpt(handles);
 
-% Set trode names in sort pop-up menu
-trode = handles.expt.sort.trode;
-trodeNames = {trode.name};
-set(handles.SortFilePopUp,'String',trodeNames);
-
-% Initialize sort and unit tables
-handles = UpdateSortTable(handles);
-handles = UpdateUnitTable(handles);
-
-% Open spikes
-spikes = LoadSpikesFile(handles);
+    % Set trode names in sort pop-up menu
+    trode = handles.expt.sort.trode;
+    trodeNames = {trode.name};
+    set(handles.SortFilePopUp,'String',trodeNames);
+    
+    % Initialize sort and unit tables
+    handles = UpdateSortTable(handles);
+    handles = UpdateUnitTable(handles);
+    
+    % Open spikes
+    spikes = LoadSpikesFile(handles);
+end
 
 % Update handles structure
 guidata(handles.hExptViewer, handles);

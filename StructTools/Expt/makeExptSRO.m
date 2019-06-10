@@ -51,7 +51,7 @@ expt.name = getFromExptTable(ExptTable,'Experiment name');
 expt.fname = [rigdef.Dir.Expt expt.name '_expt'];
 
 % *** TEMP *** if expt is V1 of V1/LGN then make LED files
-makeV1LEDFiles(expt.name);
+% makeV1LEDFiles(expt.name);
 
 % Add .info struct
 expt = addInfo(expt,ExptTable);

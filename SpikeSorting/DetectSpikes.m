@@ -207,7 +207,7 @@ for fileInd = detectFiles
     clear data
     % Add detected file index fileInds
     expt.sort.trode(trodeInd).fileInds(end+1) = fileInd;
-    % Set information about detetction
+    % Set information about detetction 
     expt.sort.trode(trodeInd).spikespersec = length(spikes.spiketimes)/sum(spikes.info.detect.dur);
     expt.sort.trode(trodeInd).thresh = spikes.params.thresh;     % Get thresholds actually used
     % Set additional information in spikes struct

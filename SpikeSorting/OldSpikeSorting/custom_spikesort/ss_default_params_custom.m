@@ -25,7 +25,7 @@ function spikes = ss_default_params_custom(Fs, varargin )
     % spike detection parameters
     spikes.params.Fs = Fs;                  % Hz, sampling rate of spike data
     spikes.params.detect_method = 'auto';   % 'auto' = threshold calculated from background noise, 'manual' = user defined threshold
-    spikes.params.thresh = 4;               % for 'auto', set number of standard deviations above background noise
+    spikes.params.thresh = 4.5;               % for 'auto', set number of standard deviations above background noise
  %  spikes.params.thresh =    [-5.3897 -5.0999 -5.1816 -5.5274]; % for 'manual', set specific thresholds for each channel
     spikes.params.window_size  = 1.5;       % ms, width of a spike
     spikes.params.shadow = 0.75;            % ms, enforced dead region after each spike

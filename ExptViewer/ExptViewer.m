@@ -35,7 +35,7 @@ guidata(hObject, handles);
 function varargout = ExptViewer_OutputFcn(hObject, eventdata, handles)
 
 RigDef = RigDefs;
-set(hObject,'Position',[RigDef.ExptViewer.Position 781 774]); pause(0.2)
+set(hObject,'Position',[RigDef.ExptViewer.Position]); pause(0.2)
 set(hObject,'Visible','on'); pause(0.2)
 
 function varargout = SortTable_OpeningFcn(hObject, eventdata, handles)

@@ -131,9 +131,9 @@ if ~append
     spikes.trials     = [];
     spikes.info.detect.event_channel = [];
 end
-progress_bar(0, max(floor(num_trials/100),1), ['Extracting Spikes . . . Thresh: ', num2str(thresh,2)] )
+% progress_bar(0, max(floor(num_trials/100),1), ['Extracting Spikes . . . Thresh: ', num2str(thresh,2)] )
 for j = 1:num_trials
-        progress_bar(j/num_trials); % BA
+%         progress_bar(j/num_trials); % BA
 
     % get crossings on all channels for this trial
     crossings = [];

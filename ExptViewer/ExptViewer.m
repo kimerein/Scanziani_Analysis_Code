@@ -639,7 +639,13 @@ if ~isempty(trodeNames)
     for i = 1:length(trodeNames)
         found = strfind(trodeNames{i},trodeNum);
         if found
-            load(fullfile(handles.RigDef.Dir.Spikes,[SpikesFiles{i} '.mat']));
+            a=load(fullfile(handles.RigDef.Dir.Spikes,[SpikesFiles{i} '.mat']));
+            ftest=fieldnames(a);
+            if isempty(ftest)
+                spikes = [];
+            else
+                spikes=a.spikes;
+            end
             break
         else
             spikes = [];

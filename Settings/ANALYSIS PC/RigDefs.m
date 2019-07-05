@@ -22,7 +22,7 @@ RigDef.User.ID                             = 'KR';
 RigDef.Dir.CodeRoot                        = 'C:\Users\Kim\Documents\GitHub\Scanziani_Analysis_Code\';
 % RigDef.Dir.Icons                           = [RigDef.Dir.CodeRoot, 'GuiTools\Icons\'];
 
-RigDef.Dir.Data                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Ntsr1_ChR example data\'; %'F:\RawData\'; 
+RigDef.Dir.Data                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Scanziani Boston computer more recent\My Book\New RawData\'; %'F:\RawData\'; 
 %'C:\Users\Public\Documents\RawData\';                       
 RigDef.Dir.DataFilt                        = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Filtered\'; 
 RigDef.Dir.Analyzed                        = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Analyzed\';
@@ -91,6 +91,7 @@ RigDef.DataViewer.Position                 = [244 0 928 1000];          % Positi
 RigDef.DataViewer.AnalysisButtons          = 1;
 RigDef.DataViewer.UsePeakfinder            = 1;                         % Default setting as to whether to use Peakfinder (1) or hard threshold (0) in detecting spikes for DAQ dataviewer
 RigDef.DataViewer.ShowAllYAxes             = 1;                         % Default setting for whether to show all Y axes in DAQ dataviewer
+RigDef.DataViewer.MaxChannels              = 32;
 RigDef.ExptDataViewer.ShowAllYAxes         = 1;                         % Default setting for whether to show all Y axes in EXPT dataviewer
 RigDef.ExptDataViewer.UsePeakfinder        = 1;                         % Default setting as to whether to use Peakfinder (1) or hard threshold (0) in detecting spikes for EXPT dataviewer
 RigDef.ExptDataViewer.DefaultThreshold     = -0.06;                      % Default threshold 

@@ -42,6 +42,8 @@ handles.hAllAxes = dvHandles.hAllAxes;
 handles.ChannelInfo = dvHandles.daqinfo.ObjInfo.Channel;
 handles.ChannelInfo = [{handles.ChannelInfo.Index}', {handles.ChannelInfo.ChannelName}', ...
     {handles.ChannelInfo.HwChannel}'];
+disp('Here are the channel mappings: Index, ChName in Viewer, HW channel');
+disp(handles.ChannelInfo);
 
 % Set up GUI
 handles = PlotChooserHelper(handles);

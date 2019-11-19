@@ -1,4 +1,4 @@
-function newSpikes=addLEDtoSpikes(spikes, expt)
+function newSpikes=addLEDtoSpikes(spikes,expt)
 
 newSpikes=spikes;
 for i=1:length(spikes.led)

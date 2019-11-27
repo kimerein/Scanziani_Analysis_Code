@@ -22,14 +22,14 @@ RigDef.User.ID                             = 'KR';
 RigDef.Dir.CodeRoot                        = 'C:\Users\Kim\Documents\GitHub\Scanziani_Analysis_Code\';
 % RigDef.Dir.Icons                           = [RigDef.Dir.CodeRoot, 'GuiTools\Icons\'];
 
-% RigDef.Dir.Data                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Scanziani Boston computer more recent\My Book\New RawData\'; %'F:\RawData\'; 
-RigDef.Dir.Data                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\From new server PART 2\New Acquisition Computer 2\'; %'F:\RawData\'; 
+RigDef.Dir.Data                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Scanziani Boston computer more recent\My Book\New RawData\'; %'F:\RawData\'; 
+% RigDef.Dir.Data                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\From new server PART 2\New Acquisition Computer 2\'; %'F:\RawData\'; 
 %'C:\Users\Public\Documents\RawData\';                       
 RigDef.Dir.DataFilt                        = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Filtered\'; 
 RigDef.Dir.Analyzed                        = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Analyzed\';
 RigDef.Dir.Spikes                          = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Analyzed\SortedSpikes\';
 RigDef.Dir.Stimuli                         = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Stimuli\';    
-RigDef.Dir.Expt                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Experiments\';   
+RigDef.Dir.Expt                            = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Experiments\';   % '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Scanziani Boston computer more recent\My Book\20160710 Boston Computer Back-up\MATLAB\Expts';
 RigDef.Dir.FigOnline                       = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\OnlineFigures\';  
 RigDef.Dir.Settings                        = '\\research.files.med.harvard.edu\neurobio\MICROSCOPE\Kim\FF_manuscript\Sabalab computer\MATLAB Expt Data\Settings\';  
 %RigDef.Dir.VStimLog                        = '\\128.54.15.84\VStim\VStimLog\';

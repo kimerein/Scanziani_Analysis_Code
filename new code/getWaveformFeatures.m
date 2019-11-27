@@ -1,4 +1,4 @@
-function [halfwidth peakToTrough amp]=getWaveformFeatures(spikes,Fs)
+function [halfwidth, peakToTrough, amp, avWaveforms]=getWaveformFeatures(spikes,Fs)
 
 a=unique(spikes.assigns);
 

@@ -83,6 +83,7 @@ function splitmerge_tool( spikes, show_clusters, h, varname)
     figdata.handles.panels = []; figdata.handles.axes = []; figdata.handles.id=[];
     
     % initialize the panels
+    % p1 = make_uipanel_on_grid( [1 1 4 1], num2str(['Combined selected clusters']), spikes.params.display, h );
     p1 = make_uipanel_on_grid( [1 1 4 1], num2str(['Combined selected clusters']), spikes.params.display, h );
     figdata.handles.cluster_panel = p1;
     set(h,'UserData',figdata)

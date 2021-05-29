@@ -281,7 +281,8 @@ else
 end
 hold off
 
-set(gca,'Tag','waveforms','XLim',[1 num_samples],'YLim',data.ylims)
+% set(gca,'Tag','waveforms','XLim',[1 num_samples],'YLim',data.ylims) % KER
+% commented out 
 
 % make vertical lines to separate wavform into its channels
 num_channels = size(waveforms,3);
@@ -324,6 +325,8 @@ if colormode >= 3 & displaymode < 3
    set(l,'FontSize',7);
 end
 legend hide
+
+axis tight
 
 % label axes
 xlabel('Sample')

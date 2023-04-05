@@ -1,5 +1,8 @@
 function [halfwidth, peakToTrough, amp, avWaveforms]=getWaveformFeatures(spikes,Fs)
 
+% Note that finds features of waveform on channel where spike DETECTED, not
+% necessarily the channel where the spike was biggest
+
 a=unique(spikes.assigns);
 
 % Get halfwidths for units
